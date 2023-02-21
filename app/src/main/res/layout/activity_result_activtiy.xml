@@ -8,13 +8,12 @@
     tools:context=".ResultActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/resultImage"
         android:layout_width="340dp"
         android:layout_height="340dp"
         android:layout_above="@id/resultLayout"
         android:layout_centerHorizontal="true"
-        android:padding="10dp"
-        android:src="@drawable/bmi_icon" />
+        android:padding="10dp" />
 
 
     <RelativeLayout
@@ -49,7 +48,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/result1Gender"
+            android:id="@+id/category"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/resultGender"

@@ -136,10 +136,11 @@
 
 
             <ImageView
-                android:id="@+id/decrement"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:src="@drawable/outline_plus" />
+                android:id="@+id/decrementWeight"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:tint="@color/white"
+                android:src="@drawable/minus" />
 
 
         </RelativeLayout>
@@ -155,7 +156,7 @@
 
 
             <ImageView
-                android:id="@+id/increment"
+                android:id="@+id/incrementWeight"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
                 android:src="@drawable/outline_plus" />
@@ -212,9 +213,10 @@
 
             <ImageView
                 android:id="@+id/decrementAge"
-                android:layout_width="35dp"
-                android:layout_height="35dp"
-                android:src="@drawable/outline_plus" />
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:tint="@color/white"
+                android:src="@drawable/minus" />
 
 
         </RelativeLayout>
